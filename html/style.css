@@ -1,0 +1,108 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div {
+    background-color:wheat;
+    width: 200px;
+
+}
+
+h1 {
+    color: bisque
+}
+
+.title {
+    background-color: cornflowerblue;            
+    width: 800px;
+    border: 15px solid plum;
+    padding: 50px;
+    margin: 20px;
+
+}
+
+#new {
+    background-color: deeppink;
+    color: lightcyan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    color: chocolate;
+    font-size: 20px;
+}
+
+.special p {
+    color: blue;
+}
+
+p, h3 {
+    color:darkslategray;
+    font-size: 20px;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: green;
+}
+
+a:visited {
+    color: black;
+}
+
+h2::first-letter {
+    color: red;
+}
+
+ul::first-line {
+    color: coral;
+}
+
+h1 + h2 {
+    text-decoration: underline;
+}
+
+.box-1 {
+    background: #cad;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    position: absolute;
+    top: 0;
+}
+
+.box-2 {
+    background: rgb(235, 227, 240);
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    position: relative;
+    left: 300px;
+}
+
+.box-3 {
+    background: rgb(81, 71, 87);
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    position: absolute;
+    top: 300px;
+}
+
+.sticky {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: sticky;
+    top: 0;
+    background-color: blanchedalmond;
+}
+
+.hidden {
+  visibility: hidden;
+}
+

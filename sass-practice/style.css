@@ -1,0 +1,22 @@
+.foo {
+  display: block;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav li span {
+  margin-left: 5px;
+}
+nav li a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

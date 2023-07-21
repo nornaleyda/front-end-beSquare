@@ -1,0 +1,170 @@
+@import 'variables';
+@import 'function';
+
+
+body {
+    background-color: #c3cfb7;
+    font-family: Arial,sans-serif;
+    font-family: Sarala,sans-serif;
+  }
+  
+.render-element {
+    padding: 2px 5px 12px 10px;
+    font-size:smaller;
+    height: 55%;
+    overflow: auto;
+    line-height: 3;
+  }
+
+  .fa-trash {
+    float: right;
+    margin-top: 20px
+    // position: relative;
+    // left: 350px; 
+    // display: flex;
+    // justify-content:right;
+    // float: right;
+    // padding-top: auto;
+    // margin-left: 18rem
+  }
+
+.input {
+    cursor: pointer;
+    border-bottom: 1px solid rgb(171, 159, 159);
+  }
+  
+.column {
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    &1 {
+        background-color:rgb(255, 255, 255);
+        float: $float;
+        width: 20%;
+        padding: padding(10);
+        height: $height; 
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        
+      }   
+    
+    &2 {
+        background-color: $white;
+        float: $float;
+        width: 40%;
+        padding: 10px;
+        height: $height; 
+      }
+
+    &3 {
+        background-color:$white;
+        float: $float;
+        width: 25%;
+        padding: 10px;
+        height: $height; 
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+    
+    
+  }
+  
+.left {
+    background-color: $background;
+    border-radius: 8px;
+    height: 100%;
+    overflow: hidden;
+    width: auto;
+    padding-left: 10px;
+
+    &-text {
+        padding: 10px;
+        font-size: xx-small;
+        
+      }    
+  }
+  
+  
+.middle {
+    height: 100%;
+    /* overflow: auto; */
+    width: auto;
+    line-height: 3;
+  }
+
+.right {
+    background-color: $background;
+    border-radius: 8px;
+    height: 100%;
+    overflow: auto;
+    width: auto;
+    padding-left: 10px;
+  }
+  
+.tasks {
+    font-size: x-small;
+
+    &-title {
+        font-size: x-small;
+        font-weight: bold; 
+      }    
+  }
+  
+  
+  .icon {
+    position: $position;
+    left: 167px;
+    bottom: 38px;
+
+    &2 {
+        position: $position;
+        right: 20;
+        top: 12px;
+      }
+      
+    &3 {
+        position: $position;
+        right: 20;
+        top: 12px;
+      }
+      
+    &4 {
+        position: $position;
+        right: 20;
+        top: 12px;
+      }
+      
+    &5 {
+        position: $position;
+        left: 380px;
+        top: 0px;
+      }
+    
+  }
+  
+  #date {
+    border-style: hidden;
+    font-family: Arial,sans-serif;
+    font-family: Sarala,sans-serif;
+  }
+
+.date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkBox {
+    margin-top: 10rem;
+}
+
+#get_value {
+    width: 350px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px;
+}
